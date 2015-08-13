@@ -2,7 +2,7 @@ from distutils.core import setup
 
 
 setup(
-    name='typesafety',
+    name='typesafe-hints',
     version='1.0',
     description='Efficient general typesafety based on type hints.',
     author='Justus Adam',
@@ -11,8 +11,9 @@ setup(
     platforms=['POSIX', 'Windows'],
     license='GPLv2',
     classifiers=[
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
-        'License :: GPL version 2' 'development',
+        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Operating System :: MacOS :: MacOS X',
         'Operating System :: Microsoft :: Windows',
         'Operating System :: POSIX',

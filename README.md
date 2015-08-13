@@ -1,4 +1,4 @@
-# Python typesafety
+# Python typesafety [![Package status](https://img.shields.io/pypi/v/typesafe-hints.svg)](https://pypi.python.org/pypi/typesafe-hints/1.0)
 
 Python typesafety provides a decorator for python functions which uses the normally optional type annotations and performs typechecking based on these annotations both on the function arguments (before function execution) and the return (after function execution).
 
