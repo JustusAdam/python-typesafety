@@ -1,7 +1,8 @@
 from distutils.core import setup
 
 
-setup(name='typesafety',
+setup(
+    name='typesafety',
     version='1.0',
     description='Efficient general typesafety based on type hints.',
     author='Justus Adam',
@@ -23,4 +24,5 @@ setup(name='typesafety',
     'functions on every call.',
     url='https://github.com/JustusAdam/python-typesafety',
     packages=['typesafe'],
+    package_dir={'typesafe': 'src/typesafe'}
     )
